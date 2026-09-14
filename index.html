@@ -1,107 +1,304 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Spyke Technologies Inc. helps technology teams define mining applications, build field demonstrators, productize proven systems, and deploy at scale with confidence." />
-  <meta property="og:title" content="Spyke Technologies Inc." />
-  <meta property="og:description" content="Define the mine problem. Build the proof. Productize for the mine. Deploy with confidence." />
-  <meta property="og:type" content="website" />
-  <meta name="theme-color" content="#0A346C" />
-  <title>Spyke Technologies Inc. — Mining Technology Consulting</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://api.fontshare.com" />
-  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,500,400&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spyke Technologies Inc. — Mining technology application, demonstration and productization</title>
+  <meta name="description" content="Spyke Technologies helps qualified technology teams define the right mining application, specify field-deployable demonstrators, assess productization readiness and lead the work required to scale a mine-ready product.">
+  <link rel="canonical" href="https://www.spyketech.ca/">
+  <link rel="alternate" hreflang="en" href="https://www.spyketech.ca/index.html">
+  <link rel="alternate" hreflang="fr" href="https://www.spyketech.ca/fr/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.spyketech.ca/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Spyke Technologies Inc.">
+  <meta property="og:title" content="Spyke Technologies Inc. — Mining technology application, demonstration and productization">
+  <meta property="og:description" content="Spyke Technologies helps qualified technology teams define the right mining application, specify field-deployable demonstrators, assess productization readiness and lead the work required to scale a mine-ready product.">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:image" content="assets/img/hero-underground.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0A346C">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f%5B%5D=cabinet-grotesk@800,700&amp;display=swap">
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f%5B%5D=satoshi@400,500,700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Spyke Technologies Inc.",
+    "description": "Independent mining technology consultancy: mining application definition, field demonstration platforms, mine-ready productization assessment and prototype-to-channel readiness programs.",
+    "email": "info@spyketech.ca",
+    "url": "https://www.spyketech.ca/",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["en", "fr"],
+    "founder": { "@type": "Person", "name": "Sandy Pyke" },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montr\u00e9al",
+      "addressRegion": "QC",
+      "addressCountry": "CA"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/spyke-technologies-inc",
+      "https://www.linkedin.com/in/sandy-pyke-05b07720/"
+    ]
+  }
+  </script>
 </head>
 <body>
-  <a href="#main-content" class="skip-link" data-i18n="skip_link">Skip to main content</a>
-
-  <header class="site-header" role="banner">
-    <div class="header-inner container">
-      <a href="#" class="logo-link" aria-label="Spyke Technologies Inc. — Home">
-        <img src="assets/logo_color.png" alt="Spyke Technologies Inc." width="208" height="52" class="logo-img logo-img--light" loading="eager" decoding="async" />
-        <img src="assets/logo_color.png" alt="Spyke Technologies Inc." width="208" height="52" class="logo-img logo-img--dark" loading="eager" decoding="async" />
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="brand" href="index.html" aria-label="Spyke Technologies Inc. — home">
+        <img class="brand__logo brand__logo--light" src="assets/brand/SpykeTechIncColor.svg" alt="Spyke Technologies Inc." width="512" height="128" decoding="async"><img class="brand__logo brand__logo--dark" src="assets/brand/SpykeTechIncWhite.svg" alt="" aria-hidden="true" width="512" height="128" decoding="async">
       </a>
-      <nav class="main-nav" role="navigation" aria-label="Main navigation">
-        <ul role="list">
-          <li><a href="#about" data-i18n="nav_about">About</a></li>
-          <li><a href="#services" data-i18n="nav_services">Offers</a></li>
-          <li><a href="#how-i-work" data-i18n="nav_how">Pathway</a></li>
-          <li><a href="#harsh-environment" data-i18n="nav_readiness">Readiness</a></li>
-          <li><a href="#confidentiality" data-i18n="nav_boundaries">Boundaries</a></li>
-          <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
-        </ul>
+      <nav class="nav" id="site-nav" data-open="false" aria-label="Primary">
+        <a href="offers.html">Offers</a>
+        <a href="pathway.html">Pathway</a>
+        <a href="industries.html">Industries</a>
+        <a href="about.html">About</a>
+        <a class="btn btn--primary nav__cta" href="contact.html">Start a conversation</a>
       </nav>
-      <div class="header-controls">
-        <button class="lang-toggle" id="lang-toggle" aria-label="Switch to French">FR</button>
-        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <div class="header__actions">
+        <a class="lang-btn" href="fr/index.html" hreflang="fr" lang="fr" aria-label="Passer au français">FR</a>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to dark mode" data-label-dark="Switch to dark mode" data-label-light="Switch to light mode"></button>
+        <button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu" data-label-open="Open navigation menu" data-label-close="Close navigation menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         </button>
-        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
       </div>
-    </div>
-    <div class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" hidden>
-      <ul role="list">
-        <li><a href="#about" data-i18n="nav_about">About</a></li>
-        <li><a href="#services" data-i18n="nav_services">Offers</a></li>
-        <li><a href="#how-i-work" data-i18n="nav_how">Pathway</a></li>
-        <li><a href="#harsh-environment" data-i18n="nav_readiness">Readiness</a></li>
-        <li><a href="#confidentiality" data-i18n="nav_boundaries">Boundaries</a></li>
-        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
-      </ul>
     </div>
   </header>
 
-  <main id="main-content">
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-media" aria-hidden="true"><img src="assets/hero_mining.jpg" alt="" width="1920" height="1080" loading="eager" decoding="async" class="hero-img" /><div class="hero-overlay"></div></div>
-      <div class="hero-content container">
-        <p class="hero-eyebrow fade-in" data-i18n="hero_eyebrow">Mining Technology Consulting</p>
-        <h1 id="hero-heading" class="hero-heading fade-in" data-i18n="hero_heading">From Technical Capability<br/>to Mine-Ready Product.</h1>
-        <p class="hero-sub fade-in" data-i18n="hero_sub">Spyke Technologies helps industrial and emerging-technology teams define the right mining application, build the right field demonstrator, and take proven systems through productization and channel readiness.</p>
-        <div class="hero-ctas fade-in"><a href="#services" class="btn btn-primary" data-i18n="cta_offers">Explore the Offers</a><a href="#contact" class="btn btn-ghost" data-i18n="cta_contact">Start a Conversation</a></div>
+  <main id="main">
+    <section class="hero">
+      <img class="hero__bg" src="assets/img/hero-underground.webp" alt="Underground mine drift lit by equipment lights" width="1400" height="933" fetchpriority="high">
+      <div class="wrap hero__inner">
+        <p class="eyebrow">Mining technology consulting</p>
+        <h1>From mining application to field demonstrator to a <em>mine-ready, channel-ready product.</em></h1>
+        <p class="lede">Spyke Technologies Inc. helps qualified technology teams define the right mining application before building, specify field-deployable demonstrators, assess productization readiness, and lead the ruggedization, validation, manufacturing-readiness, deployment and service work required to scale.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="pathway.html">Find your starting point</a>
+          <a class="btn btn--onDark" href="offers.html">See the four offers</a>
+        </div>
       </div>
-      <div class="hero-scroll-hint" aria-hidden="true"><span class="scroll-line"></span></div>
     </section>
 
-    <section class="section-about" id="about" aria-labelledby="about-heading"><div class="container"><div class="section-label" data-i18n="about_label">Positioning</div><div class="about-grid"><div class="about-primary">
-      <h2 id="about-heading" class="section-heading fade-in" data-i18n="about_heading">Technology Becomes Valuable in the Right Mining Context.</h2>
-      <p class="body-lead fade-in" data-i18n="about_lead">A promising capability is not automatically a mining product. The first task is to identify the mine problem, operating context, workflow, stakeholder path, and proof required before significant development investment is committed.</p>
-      <p class="body-text fade-in" data-i18n="about_body1">Spyke Technologies is a mining technology application-definition, demonstration-platform, productization, and scale-up partner. Engagements are designed to move qualified teams from technical possibility to a credible mining application, a field-deployable demonstrator, a mine-ready product, and a repeatable delivery model.</p>
-      <p class="body-text fade-in" data-i18n="about_body2">With more than 30 years of experience across product and system development, deployment, manufacturing readiness, service, and technical leadership, I provide practical, decision-focused support matched to your product’s maturity stage.</p>
-    </div><div class="about-timeline fade-in" aria-label="Client maturity pathway">
-      <div class="timeline-item"><div class="timeline-year" data-i18n="timeline_1_year">Stage 1</div><div class="timeline-desc" data-i18n="timeline_1">Define the mining application, operating context, stakeholder path, and proof objective.</div></div>
-      <div class="timeline-item"><div class="timeline-year" data-i18n="timeline_2_year">Stage 2</div><div class="timeline-desc" data-i18n="timeline_2">Define the field-deployable demonstrator, system requirements, interfaces, and validation evidence.</div></div>
-      <div class="timeline-item"><div class="timeline-year" data-i18n="timeline_3_year">Stage 3</div><div class="timeline-desc" data-i18n="timeline_3">Establish the productization baseline and roadmap for a mine-ready commercial product.</div></div>
-      <div class="timeline-item"><div class="timeline-year" data-i18n="timeline_4_year">Stage 4</div><div class="timeline-desc" data-i18n="timeline_4">Lead approved execution through readiness gates for deployment, service, support, and channel scale-up.</div></div>
-    </div></div></div></section>
+    <section class="wrap" aria-label="Point of view">
+      <dl class="stats"><div class="stats__item"><dt>Experience</dt><dd><strong>30+ years</strong><span>Mining technology R&amp;D, deployment and support</span></dd></div><div class="stats__item"><dt>Structure</dt><dd><strong>4 staged offers</strong><span>Each with its own entry point and exit decision</span></dd></div><div class="stats__item"><dt>Model</dt><dd><strong>One senior lead</strong><span>Plus the delivery capacity your stage requires</span></dd></div><div class="stats__item"><dt>Based in</dt><dd><strong>Montréal, QC</strong><span>Serving Canadian and international teams</span></dd></div></dl>
+    </section>
 
-    <section class="section-services" id="services" aria-labelledby="services-heading"><div class="services-bg-art" aria-hidden="true"><img src="assets/services_bg.jpg" alt="" width="1920" height="700" loading="lazy" decoding="async" /></div><div class="container">
-      <div class="section-label light" data-i18n="services_label">Offers</div><h2 id="services-heading" class="section-heading light fade-in" data-i18n="services_heading">A Staged Path to Mining Readiness.</h2><p class="services-intro light fade-in" data-i18n="services_intro">Each offer starts from a different evidence base, answers a distinct client question, and produces a defined next decision. Begin at the stage that matches your maturity—not at a predetermined service level.</p>
-      <div class="services-grid">
-        <article class="service-card fade-in"><div class="service-number" aria-hidden="true">A</div><h3 class="service-title" data-i18n="svc1_title">Mining Application Framing Sprint</h3><p class="service-desc" data-i18n="svc1_desc">For teams with a credible technology but no defined first mining application. Select the right use case, operating context, stakeholder path, and proof objective before committing to a demonstrator. Outcome: a focused application decision, demonstrator brief, and client-led 90-day validation roadmap.</p></article>
-        <article class="service-card fade-in"><div class="service-number" aria-hidden="true">B</div><h3 class="service-title" data-i18n="svc2_title">Mining Demonstration Platform Definition</h3><p class="service-desc" data-i18n="svc2_desc">For teams with tested capability or an early prototype that must prove value in a credible mining workflow. Define the field-deployable demonstrator, system requirements, configuration interfaces, operating constraints, and validation evidence. Outcome: a decision-ready demonstrator specification and validation plan.</p></article>
-        <article class="service-card fade-in"><div class="service-number" aria-hidden="true">C</div><h3 class="service-title" data-i18n="svc3_title">Mine-Ready Productization Assessment</h3><p class="service-desc" data-i18n="svc3_desc">For teams with a working or field-validated demonstrator that is not yet ready for repeatable commercial deployment. Establish the gaps across architecture, ruggedization, validation, certification planning, manufacturing, service, support, and channel readiness. Outcome: an evidence-based scorecard, prioritized gap register, and productization roadmap.</p></article>
-        <article class="service-card fade-in"><div class="service-number" aria-hidden="true">D</div><h3 class="service-title" data-i18n="svc4_title">Prototype-to-Channel Readiness Program</h3><p class="service-desc" data-i18n="svc4_desc">For organizations ready to execute an approved productization roadmap. Provide senior technical leadership and coordinated execution across validation, manufacturing readiness, deployment, service and support readiness, and channel scale-up. Outcome: reduced execution risk and a more repeatable product and delivery model for deployment at scale.</p></article>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Point of view</p>
+          <h2>A working prototype is not the summit. It is base camp.</h2>
+          
+        </div>
+        <div class="split">
+          <div class="split__media reveal">
+            <img src="assets/img/application-framing.webp" alt="Open-pit mine at blue hour with haul roads descending into the pit" loading="lazy" width="1400" height="933">
+            <p class="figure-note">Fig. 01 — Define the mine problem</p>
+          </div>
+          <div class="prose reveal">
+            <p>Many technologies look promising in a laboratory, a pilot, or an adjacent industry. Mining adoption depends on more: the technology has to solve a real operational problem, fit the mine workflow, be demonstrated credibly in the field, and then mature into a product that can survive, be validated, manufactured, installed, serviced, supported and scaled.</p>
+            <p>Mining technology teams get stuck on what we call Approval Mountain. Each customer requirement, site constraint, field observation, certification need, manufacturing limitation, service requirement or distributor expectation reveals another readiness gate. The fastest way to build the wrong mining product is to start with the technology instead of the mine problem, the operating context, and the proof required.</p>
+            <p class="footnote">Approval Mountain is a communication framework, not a claim of control over third-party approvals.</p>
+          </div>
+        </div>
       </div>
-    </div></section>
+    </section>
 
-    <section class="section-how" id="how-i-work" aria-labelledby="how-heading"><div class="container"><div class="section-label" data-i18n="how_label">Pathway</div><h2 id="how-heading" class="section-heading fade-in" data-i18n="how_heading">Define the Mine Problem. Build the Proof. Productize for the Mine. Deploy with Confidence.</h2><p class="how-intro fade-in" data-i18n="how_intro">The delivery model makes technical uncertainty visible early, establishes the evidence needed for each readiness gate, and gives the client a practical next decision.</p><div class="how-steps">
-      <div class="how-step fade-in"><div class="step-marker" aria-hidden="true">1</div><div class="step-content"><h3 class="step-title" data-i18n="how_step1_title">Define the Mine Problem</h3><p class="step-desc" data-i18n="how_step1_desc">Choose the priority application, target workflow, operating context, stakeholder path, and proof objective. The decision enabled: is this the right mining application and demonstration context to pursue?</p></div></div>
-      <div class="how-step fade-in"><div class="step-marker" aria-hidden="true">2</div><div class="step-content"><h3 class="step-title" data-i18n="how_step2_title">Build the Proof</h3><p class="step-desc" data-i18n="how_step2_desc">Define the field-deployable demonstrator, its requirements, interfaces, and validation evidence. The decision enabled: what demonstrator should be built and what must it prove?</p></div></div>
-      <div class="how-step fade-in"><div class="step-marker" aria-hidden="true">3</div><div class="step-content"><h3 class="step-title" data-i18n="how_step3_title">Productize for the Mine</h3><p class="step-desc" data-i18n="how_step3_desc">Expose the gaps between a demonstrator and a repeatable commercial product, then prioritize the readiness work. The decision enabled: what must change before the product can be deployed, supported, and scaled?</p></div></div>
-      <div class="how-step fade-in"><div class="step-marker" aria-hidden="true">4</div><div class="step-content"><h3 class="step-title" data-i18n="how_step4_title">Deploy at Scale with Confidence</h3><p class="step-desc" data-i18n="how_step4_desc">Lead approved work through technical, validation, manufacturing, deployment, service, support, and channel-readiness gates. The decision enabled: how do we execute the roadmap and build delivery capability for deployment at scale?</p></div></div>
-    </div></div></section>
+    <section class="section section--offset">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">The pathway</p>
+          <h2>Define the mine problem. Build the proof. Productize for the mine. Scale with confidence.</h2>
+          <p class="lede">Four stages, four offers. Each begins from a distinct evidence base, answers a different question and produces a defined next decision. They are complementary — not lower-cost slices of the same engagement.</p>
+        </div>
+        <div class="rail">
+          <div class="rail__item reveal"><div class="rail__num">01</div><div class="rail__body">
+            <h3>Define the mine problem</h3>
+            <p><a class="textlink" href="offer-a-mining-application-framing-sprint.html">Offer A — Mining Application Framing Sprint</a></p>
+            <span class="rail__decision"><strong>Decision enabled:</strong> Is this the right mining application and demonstration context to pursue?</span>
+          </div></div>
+          <div class="rail__item reveal"><div class="rail__num">02</div><div class="rail__body">
+            <h3>Build the proof</h3>
+            <p><a class="textlink" href="offer-b-mining-demonstration-platform-definition.html">Offer B — Mining Demonstration Platform Definition</a></p>
+            <span class="rail__decision"><strong>Decision enabled:</strong> What field-deployable demonstrator should be built, and what evidence must it produce?</span>
+          </div></div>
+          <div class="rail__item reveal"><div class="rail__num">03</div><div class="rail__body">
+            <h3>Productize for the mine</h3>
+            <p><a class="textlink" href="offer-c-mine-ready-productization-assessment.html">Offer C — Mine-Ready Productization Assessment</a></p>
+            <span class="rail__decision"><strong>Decision enabled:</strong> What must change before the demonstrator can become a repeatable commercial product?</span>
+          </div></div>
+          <div class="rail__item reveal"><div class="rail__num">04</div><div class="rail__body">
+            <h3>Scale with confidence</h3>
+            <p><a class="textlink" href="offer-d-prototype-to-channel-readiness-program.html">Offer D — Prototype-to-Channel Readiness Program</a></p>
+            <span class="rail__decision"><strong>Decision enabled:</strong> How do we execute the work and build the delivery capability required for scale?</span>
+          </div></div>
+        </div>
+      </div>
+    </section>
 
-    <section class="section-harsh" id="harsh-environment" aria-labelledby="harsh-heading"><div class="container"><div class="harsh-grid"><div class="harsh-text"><div class="section-label" data-i18n="harsh_label">Mine Readiness</div><h2 id="harsh-heading" class="section-heading fade-in" data-i18n="harsh_heading">Mine-Ready Means More Than Laboratory Validation.</h2><p class="body-text fade-in" data-i18n="harsh_body1">Mining applications impose combined requirements for environmental resilience, installation, power, communications, data, safety, maintainability, reliability, and long-term support. A credible demonstrator may prove technical value; it does not automatically establish commercial readiness.</p><p class="body-text fade-in" data-i18n="harsh_body2">Spyke Technologies helps teams translate operating context into the product, validation, manufacturing, service, support, and channel decisions required at each maturity stage.</p></div><div class="harsh-factors fade-in" aria-label="Mine readiness considerations"><div class="factor-grid"><div class="factor-item"><span class="factor-name" data-i18n="factor_vibration">Environment &amp; Protection</span></div><div class="factor-item"><span class="factor-name" data-i18n="factor_thermal">Validation &amp; Evidence</span></div><div class="factor-item"><span class="factor-name" data-i18n="factor_dust">Installation &amp; Integration</span></div><div class="factor-item"><span class="factor-name" data-i18n="factor_emc">Power, Data &amp; Communications</span></div><div class="factor-item"><span class="factor-name" data-i18n="factor_sealing">Safety &amp; Compliance Planning</span></div><div class="factor-item"><span class="factor-name" data-i18n="factor_power">Manufacturing &amp; Testability</span></div><div class="factor-item"><span class="factor-name" data-i18n="factor_service">Service &amp; Lifecycle Support</span></div><div class="factor-item"><span class="factor-name" data-i18n="factor_lifecycle">Channel &amp; Execution Readiness</span></div></div></div></div></div></section>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Offers</p>
+          <h2>Start at the stage that matches your evidence.</h2>
+          <p class="lede">You do not start at a predetermined service level. You start where your evidence, your product maturity and your next decision actually are.</p>
+        </div>
+        <div class="grid grid--2">
+        <a class="card offer reveal" href="offer-a-mining-application-framing-sprint.html">
+          <span class="offer__index" aria-hidden="true">01</span>
+          <span class="card__tag">Offer A</span>
+          <h3>Mining Application Framing Sprint</h3>
+          <p>Define the right mine problem before you build.</p>
+          <p class="card__meta"><strong>Define the mine problem</strong> · 1–2 weeks of effort, normally within 2–3 calendar weeks.</p>
+          <span class="card__foot textlink">Read the full offer <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </a>
+        <a class="card offer reveal" href="offer-b-mining-demonstration-platform-definition.html">
+          <span class="offer__index" aria-hidden="true">02</span>
+          <span class="card__tag">Offer B</span>
+          <h3>Mining Demonstration Platform Definition</h3>
+          <p>Specify the field demonstrator a mine customer can actually evaluate.</p>
+          <p class="card__meta"><strong>Build the proof</strong> · Normally 5–7 calendar weeks after the context is approved; combined A + B normally 7–10 calendar weeks.</p>
+          <span class="card__foot textlink">Read the full offer <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </a>
+        <a class="card offer reveal" href="offer-c-mine-ready-productization-assessment.html">
+          <span class="offer__index" aria-hidden="true">03</span>
+          <span class="card__tag">Offer C</span>
+          <h3>Mine-Ready Productization Assessment</h3>
+          <p>Make the gap between a demonstrator and a commercial product visible.</p>
+          <p class="card__meta"><strong>Productize for the mine</strong> · Up to 4 calendar weeks, remote-first.</p>
+          <span class="card__foot textlink">Read the full offer <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </a>
+        <a class="card offer reveal" href="offer-d-prototype-to-channel-readiness-program.html">
+          <span class="offer__index" aria-hidden="true">04</span>
+          <span class="card__tag">Offer D</span>
+          <h3>Prototype-to-Channel Readiness Program</h3>
+          <p>Turn an approved roadmap into governed execution and client-owned capability.</p>
+          <p class="card__meta"><strong>Scale with confidence</strong> · Surge normally 2–6 months; Execute normally 6–18 months; Maintenance ongoing.</p>
+          <span class="card__foot textlink">Read the full offer <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </a>
+        </div>
+      </div>
+    </section>
 
-    <section class="section-confidentiality" id="confidentiality" aria-labelledby="conf-heading"><div class="container"><div class="conf-inner"><div class="section-label light" data-i18n="conf_label">Working Boundaries</div><h2 id="conf-heading" class="section-heading light fade-in" data-i18n="conf_heading">Practical Support. Clear Responsibilities.</h2><p class="conf-body fade-in" data-i18n="conf_body1">Spyke Technologies provides decision support, requirements definition, productization leadership, and coordination within the agreed scope. Clients retain product ownership, commercial decisions, customer relationships, final release authority, and manufacturer-of-record responsibilities.</p><p class="conf-body fade-in" data-i18n="conf_body2">Engagements are not generic staffing, contract manufacturing, a certification laboratory, sales representation, or a guarantee of customer approval, site access, certification, or commercial outcomes.</p><p class="conf-body fade-in" data-i18n="conf_body3">Spyke Technologies provides independent advisory services based on general professional experience, independent analysis, and publicly available information. We do not use, disclose, or provide access to confidential, proprietary, or trade-secret information of any current or former employer, client, supplier, or partner.</p><div class="conf-tenets fade-in"><div class="tenet"><div class="tenet-mark" aria-hidden="true">—</div><p data-i18n="tenet1">Decision-focused scope and defined outcomes.</p></div><div class="tenet"><div class="tenet-mark" aria-hidden="true">—</div><p data-i18n="tenet2">Client ownership and authority remain with the client.</p></div><div class="tenet"><div class="tenet-mark" aria-hidden="true">—</div><p data-i18n="tenet3">Strict professional discretion and non-disclosure.</p></div></div></div></div></section>
+    <section class="section section--offset">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Entry points</p>
+          <h2>Not sure where you belong?</h2>
+          <p class="lede">Maturity routing is deliberate. The table below matches the uncertainty you are carrying today to the offer designed to resolve it.</p>
+        </div>
+        <div class="table-wrap reveal">
+          <table class="data data--wrap"><caption class="sr-only">Not sure where you belong?</caption>
+            <thead><tr><th scope="col">Your situation today</th><th scope="col">Primary uncertainty</th><th scope="col">Offer</th></tr></thead>
+            <tbody>
+              <tr><td data-label="Your situation today">Credible technology or concept; no sufficiently defined mining application or demonstration context.</td><td data-label="Primary uncertainty">Where can this technology create practical value in mining, and what must a first demonstrator prove?</td><td data-label="Offer"><a class="textlink" href="offer-a-mining-application-framing-sprint.html">Offer A</a></td></tr><tr><td data-label="Your situation today">Tested technology or early prototype; approved application and demonstration context.</td><td data-label="Primary uncertainty">What demonstrator should we build, what mine workflow must it support, and what evidence must it produce?</td><td data-label="Offer"><a class="textlink" href="offer-b-mining-demonstration-platform-definition.html">Offer B</a></td></tr><tr><td data-label="Your situation today">Defined application and a representative working or field-validated demonstrator or prototype.</td><td data-label="Primary uncertainty">What must change before the demonstrator can be validated, manufactured, installed, serviced, supported and scaled?</td><td data-label="Offer"><a class="textlink" href="offer-c-mine-ready-productization-assessment.html">Offer C</a></td></tr><tr><td data-label="Your situation today">Approved productization baseline or equivalent evidence, executive sponsor, funding path and a named product owner.</td><td data-label="Primary uncertainty">How do we convert the roadmap into an executable program and build the delivery capability required for scale?</td><td data-label="Offer"><a class="textlink" href="offer-d-prototype-to-channel-readiness-program.html">Offer D</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="section-foot"><a class="textlink" href="pathway.html">See the full pathway and progression rules <span class="arrow" aria-hidden="true">&rarr;</span></a></p>
+      </div>
+    </section>
 
-    <section class="section-contact" id="contact" aria-labelledby="contact-heading"><div class="container"><div class="section-label" data-i18n="contact_label">Contact</div><div class="contact-grid"><div class="contact-left"><h2 id="contact-heading" class="section-heading fade-in" data-i18n="contact_heading">Find the Right Starting Point.</h2><p class="body-lead fade-in" data-i18n="contact_body">Whether you are assessing a mining application, defining a field demonstrator, productizing a proven prototype, or planning a scale-up program, start with a confidential conversation about the evidence you have and the next decision you need to make.</p><div class="contact-details fade-in"><div class="contact-item"><span class="contact-label" data-i18n="contact_email_label">Email</span><a href="#" class="contact-value js-email-link">info@spyketech.ca</a></div><div class="contact-item"><span class="contact-label" data-i18n="contact_location_label">Location</span><span class="contact-value" data-i18n="contact_location_value">Montreal, Quebec, Canada Area</span></div><div class="contact-item"><span class="contact-label" data-i18n="contact_person_linkedin_label">Personal LinkedIn</span><a href="https://www.linkedin.com/in/sandy-pyke-05b07720/" target="_blank" rel="noopener noreferrer" class="contact-value" data-i18n="contact_linkedin">Sandy Pyke on LinkedIn</a></div><div class="contact-item"><span class="contact-label" data-i18n="contact_company_linkedin_label">Company LinkedIn</span><a href="https://www.linkedin.com/company/spyke-technologies-inc" target="_blank" rel="noopener noreferrer" class="contact-value" data-i18n="contact_company_linkedin">Spyke Technologies on LinkedIn</a></div></div><a class="btn btn-primary btn-large fade-in js-email-link" data-i18n="cta_contact_main">Start a Conversation</a></div></div></div></section>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Readiness domains</p>
+          <h2>Mine-readiness is assessed across seven domains.</h2>
+          <p class="lede">A demonstrator can prove valuable technical capability and still be years away from repeatable deployment. These are the domains examined in a Mine-Ready Productization Assessment.</p>
+        </div>
+        <ul class="tags tags--lg reveal"><li>Product and system architecture</li><li>Mine environment and ruggedization</li><li>Embedded, application, cloud, data and communications readiness</li><li>Verification, validation, certification and compliance path</li><li>Manufacturability, testability and supply-chain readiness</li><li>Deployment, service and lifecycle support</li><li>Channel and execution readiness</li></ul>
+      </div>
+    </section>
+
+    <section class="section section--offset">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Delivery model</p>
+          <h2>One technical lead. The right delivery capacity.</h2>
+          
+        </div>
+        <div class="split split--reverse">
+          <div class="split__media reveal">
+            <img src="assets/img/design-review.webp" alt="Engineers reviewing technical drawings during a design review" loading="lazy" width="1400" height="933">
+            <p class="figure-note">Fig. 02 — Delivery model</p>
+          </div>
+          <div class="prose reveal">
+            <p>Spyke Technologies provides senior mining-technology product leadership where it creates the most value: mine-operational translation, requirements and interface definition, productization strategy, technical integration, readiness-gate leadership, risk reduction, partner coordination and capability transfer.</p>
+            <p>Detailed implementation work is performed by your team or by qualified specialists where appropriate. Client-direct contracting with engineering firms, laboratories, manufacturers, installers, service providers and channel partners is the default — so the engagement does not become the critical path, and you are left more capable rather than more dependent.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap wrap--default">
+        <div class="section-head reveal">
+          <p class="eyebrow">Working boundaries</p>
+          <h2>Clear responsibilities.</h2>
+          
+        </div>
+        <div class="callout reveal">
+          <p>You retain product ownership, commercial decisions, customer relationships, expenditures, direct supplier and partner relationships wherever practical, final product-release authority, and manufacturer-of-record responsibility.</p>
+          <p>Spyke Technologies is not generic strategy consulting, a staffing agency, a contract manufacturer, a system integrator of record, a certification laboratory or body, a sales-representation service, or a substitute for your manufacturer-of-record responsibilities. No engagement guarantees mine-site access, customer approval, pilot sponsorship, certification, market fit or commercial success.</p>
+          <p>Spyke Technologies provides independent consulting based on general professional experience, independent analysis and publicly available information. Confidential, proprietary or trade-secret information belonging to any current or former employer, client, supplier or partner is not used, disclosed or made accessible.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <img src="assets/img/field-demonstrator.webp" alt="Ruggedized instrumentation enclosure mounted on the machine-house roof of an open-pit mining shovel, inboard of the handrail and clear of the working envelope" loading="lazy" width="1400" height="933">
+      <div class="wrap band__inner">
+        <p class="eyebrow">Start a conversation</p>
+        <h2>Start with the evidence you have.</h2>
+        <p>A short, confidential conversation is usually enough to identify which stage you are at and which decision comes next.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="contact.html">Start a conversation</a>
+          <a class="btn btn--onDark" href="offers.html">See the four offers</a>
+        </div>
+      </div>
+    </section>
+
   </main>
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand" href="index.html" aria-label="Spyke Technologies Inc. — home">
+            <img class="brand__logo" src="assets/brand/SpykeTechIncWhite.svg" alt="Spyke Technologies Inc." width="512" height="128" loading="lazy" decoding="async">
+          </a>
+          <p>Mining application definition, demonstration platforms, productization and scale-up.</p>
+          <p class="footer__note">Independent consulting based on general professional experience, independent analysis and publicly available information.</p>
+        </div>
+        <div>
+          <h4>Offers</h4>
+          <ul><li><a href="offer-a-mining-application-framing-sprint.html">Offer A — Mining Application Framing Sprint</a></li><li><a href="offer-b-mining-demonstration-platform-definition.html">Offer B — Mining Demonstration Platform Definition</a></li><li><a href="offer-c-mine-ready-productization-assessment.html">Offer C — Mine-Ready Productization Assessment</a></li><li><a href="offer-d-prototype-to-channel-readiness-program.html">Offer D — Prototype-to-Channel Readiness Program</a></li></ul>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul><li><a href="offers.html">Offers</a></li><li><a href="pathway.html">Pathway</a></li><li><a href="industries.html">Industries</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Start a conversation</a></li></ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@spyketech.ca">info@spyketech.ca</a></li>
+            <li><a href="https://www.linkedin.com/company/spyke-technologies-inc" rel="noopener">Spyke Technologies on LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/sandy-pyke-05b07720/" rel="noopener">Sandy Pyke on LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Spyke Technologies Inc. All rights reserved.</span>
+        <span>Montréal region, Quebec, Canada</span>
+      </div>
+    </div>
+  </footer>
 
-  <footer class="site-footer" role="contentinfo"><div class="container"><div class="footer-inner"><div class="footer-brand"><a href="#" class="logo-link footer-logo" aria-label="Spyke Technologies Inc."><img src="assets/logo_color.png" alt="Spyke Technologies Inc." width="180" height="45" class="logo-img logo-img--light" loading="lazy" decoding="async" /><img src="assets/logo_color.png" alt="Spyke Technologies Inc." width="180" height="45" class="logo-img logo-img--dark" loading="lazy" decoding="async" /></a><p class="footer-tagline" data-i18n="footer_tagline">Mining Technology Application, Demonstration, Productization &amp; Scale-Up</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#about" data-i18n="nav_about">About</a><a href="#services" data-i18n="nav_services">Offers</a><a href="#how-i-work" data-i18n="nav_how">Pathway</a><a href="#harsh-environment" data-i18n="nav_readiness">Readiness</a><a href="#confidentiality" data-i18n="nav_boundaries">Boundaries</a><a href="#contact" data-i18n="nav_contact">Contact</a></nav></div><div class="footer-bottom"><p class="footer-copy" data-i18n="footer_copy">© 2026 Spyke Technologies Inc. All rights reserved.</p><a href="#" class="footer-email js-email-link">info@spyketech.ca</a></div></div></footer>
-  <script src="script.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
